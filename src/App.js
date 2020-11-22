@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import ListProjects from "../src/components/ListProjects";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="container">
+        <h1 className="mt-5 text-center">Projects Management</h1>
+        <p className="text-center">
+            This small proect is designed with ReactJS - APIs have been developed
+            with NodeJS. The database used is MySQL. <br /> I have also used bootstrap to develop this UI.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <hr />
+        <br />
+
+        <h3 className="mt-5 text-center">List of Projects</h3>   
+        <br />
+
+        <ListProjects />     
     </div>
   );
 }
