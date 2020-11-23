@@ -43,6 +43,12 @@ const ListProjects = () => {
 
     return(
         <Fragment>
+            <button className="btn btn-success btn-lg pull-right" type="submit"> 
+                     Create New Project  
+            </button> 
+
+            <br />    <br />    <br />
+
             <table className="table mt-5">
                 <thead>
                 <tr>
